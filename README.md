@@ -12,7 +12,7 @@ The primary goal of this dashboard is to track two core metrics:
 2.  **Forecast P50:** The projected sales based on a 50% probability (P50) of achievement.
 
 ### **Time Range Covered**
-* **Actuals/Monthly Forecast:** January 2025 – May 2027
+* **Actuals/Monthly Forecast:** January 2025 – Dec 2028
 * **Confidence Interval Forecast:** 2025 – 2028
 
 ---
