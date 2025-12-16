@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Power BI Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <div class="header">
+      <!-- <h1>Power BI Dashboard</h1> -->
+      <span class="tag">Live</span>
+    </div>
+    <div class="dashboard-header">
+      <h1>🌎 Sales Forecast Performance</h1>
+      <!-- <p class="data-status">**Data Updated:** 2025-12-14</p> -->
+      <p class="executive-summary">
+        This dashboard provides a comprehensive view of **Actual Sales** compared against the ** Predicted Sales ** across all regions and key product segments (Sport/Silhouette). The primary focus is on identifying performance against monthly targets and assessing the confidence intervals for the long-term sales projections through 2028.
+      </p>
+      <p class="operational-context">
+        **Note on Initial View:** This view aggregates data across all Sales Organizations and defaults to the entire product portfolio (all Silhouettes). Use the filters on the left panel (Region, Sales Org, Sport) or the internal Power BI Filters pane (top right of the report) to focus on specific markets or time periods.
+      </p>
+    </div>
+    <div class="frame-wrap">
+      <!-- Swap src with your Power BI embed URL (format: https://app.powerbi.com/reportEmbed?reportId=...&autoAuth=true&ctid=...&navContentPaneEnabled=false) -->
+      <iframe
+        src="https://app.powerbi.com/view?r=eyJrIjoiMGQ2MGQ4NTYtNDNhYi00MTM3LThhN2MtOTAwYzJlM2IyM2ZkIiwidCI6Ijk2NDY0YThhLWY4ZWQtNDBiMS05OWUyLTVmNmI1MGEyMDI1MCIsImMiOjN9"
+        allowfullscreen
+        title="Power BI dashboard embed">
+      </iframe>
+    </div>
+    <p class="note">If your report requires authentication, ensure the hosting page and the report share access permissions.</p>
+  </main>
+</body>
+</html>

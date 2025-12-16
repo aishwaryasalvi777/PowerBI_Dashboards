@@ -3,12 +3,12 @@
   position: fixed;
   inset: 0;
   background: 
-    linear-gradient(0deg, transparent 24%, rgba(255, 165, 0, 0.08) 25%, rgba(255, 165, 0, 0.08) 26%, transparent 27%, transparent 74%, rgba(255, 165, 0, 0.08) 75%, rgba(255, 165, 0, 0.08) 76%, transparent 77%, transparent),
-    linear-gradient(90deg, transparent 24%, rgba(82, 172, 245, 0.08) 25%, rgba(82, 172, 245, 0.08) 26%, transparent 27%, transparent 74%, rgba(82, 172, 245, 0.08) 75%, rgba(82, 172, 245, 0.08) 76%, transparent 77%, transparent);
+    linear-gradient(0deg, transparent 24%, rgba(255, 165, 0, 0.05) 25%, rgba(255, 165, 0, 0.05) 26%, transparent 27%, transparent 74%, rgba(255, 165, 0, 0.05) 75%, rgba(255, 165, 0, 0.05) 76%, transparent 77%, transparent),
+    linear-gradient(90deg, transparent 24%, rgba(82, 172, 245, 0.05) 25%, rgba(82, 172, 245, 0.05) 26%, transparent 27%, transparent 74%, rgba(82, 172, 245, 0.05) 75%, rgba(82, 172, 245, 0.05) 76%, transparent 77%, transparent);
   background-size: 60px 60px;
-  background-color: #0a0e17;
+  background-color: transparent;
   pointer-events: none;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* Main body and container */
@@ -88,6 +88,7 @@ body {
   padding: 1px;
   background: linear-gradient(135deg, transparent 0%, transparent 48%, rgba(245, 180, 82, 0.2) 50%, transparent 52%, transparent 100%);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   opacity: 0;
