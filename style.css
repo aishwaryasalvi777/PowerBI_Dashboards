@@ -104,6 +104,35 @@ iframe {
   margin: 0;
 }
 
+.dashboard-legend h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 12px 0 10px 0;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+
+.legend-list li {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.legend-list li span {
+  font-weight: 600;
+  color: var(--text);
+  margin-right: 6px;
+}
+
 @media (max-width: 640px) {
   body {
     padding: 20px;
