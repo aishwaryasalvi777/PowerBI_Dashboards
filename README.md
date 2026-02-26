@@ -59,7 +59,8 @@ PowerBI_Dashboards/
 ### 2️⃣ Operational Efficiency Dashboard
 **File:** [dashboard2.html](dashboard2.html)
 
-**Purpose:** Real-time operational metrics tracking, supply chain performance, and resource allocation optimization.
+**Purpose:** Gain consolidated visibility into orders, revenue, and profit across store locations and product categories,
+with interactive filters to explore specific months and operational segments.
 
 ---
 

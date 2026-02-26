@@ -188,20 +188,27 @@ body::before {
 
 /* Tile Link */
 .tile-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 8px;
-  color: #f5b452;
+  color: #0d1117;
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   transition: all 240ms ease;
-  padding: 6px 0;
-  border-bottom: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: 10px;
+  width: fit-content;
+  background: #f5b452;
+  border: 1px solid rgba(245, 180, 82, 0.5);
 }
 
 .tile-link:hover {
-  border-bottom-color: #f5b452;
-  transform: translateX(4px);
+  background: #52acf5;
+  border-color: rgba(82, 172, 245, 0.45);
+  color: #0d1117;
+  transform: translateY(-1px);
 }
 
 /* Footer */
